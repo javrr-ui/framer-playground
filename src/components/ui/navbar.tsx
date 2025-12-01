@@ -65,7 +65,7 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className={`block px-4 py-3 rounded-lg text-base font-medium rounded-lg transition
+                className={`block px-4 py-3 text-base font-medium rounded-lg transition
                   ${pathname === item.href
                     ? 'bg-blue-50 text-blue-600'
                     : 'text-gray-700 hover:bg-gray-100'
